@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEARFRAME — Brand Manual v1.0</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --reel-black:  #0D0D0D;
+      --frame-white: #F5F2ED;
+      --stills-gray: #2B2B2B;
+      --grain:       #8A8680;
+      --tungsten:    #C8A96E;
+    }
+
+    html { font-size: 16px; scroll-behavior: smooth; }
+
+    body {
+      background: var(--reel-black);
+      color: var(--frame-white);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── COVER ─────────────────────────────────────────── */
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px 64px;
+      border-bottom: 1px solid var(--stills-gray);
+      position: relative;
+      overflow: hidden;
+    }
+    .cover::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(255,255,255,0.012) 2px,
+        rgba(255,255,255,0.012) 4px
+      );
+      pointer-events: none;
+    }
+    .cover-top { display: flex; justify-content: space-between; align-items: flex-start; }
+    .cover-wordmark {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--frame-white);
+    }
+    .cover-meta {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--grain);
+      letter-spacing: 0.08em;
+      text-align: right;
+      line-height: 1.8;
+    }
+    .cover-hero {
+      padding: 80px 0 40px;
+    }
+    .cover-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(72px, 10vw, 120px);
+      line-height: 1.0;
+      letter-spacing: -0.02em;
+      color: var(--frame-white);
+    }
+    .cover-title em {
+      font-style: italic;
+      color: var(--tungsten);
+    }
+    .cover-tagline {
+      font-family: 'Space Mono', monospace;
+      font-size: 12px;
+      color: var(--grain);
+      letter-spacing: 0.1em;
+      margin-top: 40px;
+    }
+    .cover-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-top: 1px solid var(--stills-gray);
+      padding-top: 32px;
+    }
+    .cover-desc {
+      font-size: 13px;
+      color: var(--grain);
+      max-width: 420px;
+      line-height: 1.7;
+    }
+    .cover-version {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--grain);
+      letter-spacing: 0.08em;
+      text-align: right;
+    }
+
+    /* ── LAYOUT ─────────────────────────────────────────── */
+    .page { max-width: 960px; margin: 0 auto; padding: 0 64px; }
+
+    /* ── TOC ─────────────────────────────────────────── */
+    .toc-section {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--stills-gray);
+    }
+    .toc-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--grain);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+    }
+    .toc-list { list-style: none; }
+    .toc-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--stills-gray);
+    }
+    .toc-list li:last-child { border-bottom: none; }
+    .toc-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--grain);
+      letter-spacing: 0.08em;
+      min-width: 24px;
+    }
+    .toc-list a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: var(--frame-white);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .toc-list a:hover { color: var(--tungsten); }
+
+    /* ── SECTIONS ─────────────────────────────────────────── */
+    .section {
+      padding: 96px 0;
+      border-bottom: 1px solid var(--stills-gray);
+    }
+    .section:last-child { border-bottom: none; }
+
+    .section-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--grain);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--stills-gray);
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: clamp(40px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+      color: var(--frame-white);
+      margin-bottom: 48px;
+    }
+
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      font-size: 28px;
+      color: var(--frame-white);
+      margin: 48px 0 16px;
+      line-height: 1.2;
+    }
+
+    h4 {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      color: var(--tungsten);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin: 40px 0 12px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--frame-white);
+      max-width: 640px;
+      margin-bottom: 20px;
+    }
+    p:last-child { margin-bottom: 0; }
+
+    blockquote {
+      border-left: 2px solid var(--tungsten);
+      padding: 20px 28px;
+      margin: 40px 0;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 300;
+      color: var(--frame-white);
+      line-height: 1.5;
+      background: var(--stills-gray);
+    }
+    blockquote p { font-family: inherit; font-size: inherit; font-weight: inherit; font-style: inherit; line-height: inherit; max-width: none; }
+
+    /* ── COLORS ─────────────────────────────────────────── */
+    .palette { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 2px; margin: 40px 0; }
+    .swatch {}
+    .swatch-color { height: 120px; }
+    .swatch-info {
+      background: var(--stills-gray);
+      padding: 16px;
+    }
+    .swatch-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--frame-white);
+      display: block;
+      margin-bottom: 6px;
+    }
+    .swatch-hex {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--grain);
+      letter-spacing: 0.06em;
+      display: block;
+    }
+    .swatch-role {
+      font-size: 11px;
+      color: var(--grain);
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    /* ── TYPOGRAPHY SPECIMENS ─────────────────────────────── */
+    .type-specimen {
+      background: var(--stills-gray);
+      padding: 40px;
+      margin: 16px 0 40px;
+    }
+    .specimen-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--grain);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .specimen-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--frame-white);
+    }
+    .specimen-body {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--frame-white);
+    }
+    .specimen-mono {
+      font-family: 'Space Mono', monospace;
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      color: var(--grain);
+    }
+
+    /* ── TYPE SPEC TABLE ─────────────────────────────── */
+    .type-spec {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0 48px;
+      font-size: 13px;
+    }
+    .type-spec th {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--grain);
+      padding: 10px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--stills-gray);
+    }
+    .type-spec td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--stills-gray);
+      color: var(--frame-white);
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .type-spec tr:last-child td { border-bottom: none; }
+    .type-spec td:first-child { color: var(--tungsten); font-weight: 500; }
+
+    /* ── DO / DON'T TABLE ─────────────────────────────── */
+    .ddt { width: 100%; border-collapse: collapse; margin: 32px 0; }
+    .ddt th {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 12px 20px;
+      text-align: left;
+    }
+    .ddt th:first-child { color: var(--frame-white); background: #1a2e1a; }
+    .ddt th:last-child  { color: var(--grain); background: #2e1a1a; }
+    .ddt td {
+      padding: 16px 20px;
+      font-size: 14px;
+      line-height: 1.55;
+      vertical-align: top;
+      border-bottom: 1px solid var(--stills-gray);
+    }
+    .ddt td:first-child {
+      background: rgba(255,255,255,0.025);
+      color: var(--frame-white);
+      font-style: italic;
+    }
+    .ddt td:last-child {
+      background: rgba(255,0,0,0.04);
+      color: var(--grain);
+      text-decoration: line-through;
+      text-decoration-color: rgba(200,80,80,0.4);
+    }
+    .ddt tr:last-child td { border-bottom: none; }
+
+    /* ── VALUES ─────────────────────────────────────────── */
+    .values-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      margin: 40px 0;
+    }
+    .value-card {
+      background: var(--stills-gray);
+      padding: 36px;
+    }
+    .value-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--tungsten);
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+    }
+    .value-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--frame-white);
+      margin-bottom: 12px;
+    }
+    .value-desc {
+      font-size: 13px;
+      color: var(--grain);
+      line-height: 1.65;
+      max-width: none;
+      margin: 0;
+    }
+
+    /* ── PERSONAS ─────────────────────────────────────────── */
+    .personas { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin: 40px 0; }
+    .persona {
+      background: var(--stills-gray);
+      padding: 40px;
+    }
+    .persona-role {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--tungsten);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .persona-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 400;
+      color: var(--frame-white);
+      margin-bottom: 6px;
+      line-height: 1.2;
+    }
+    .persona-age {
+      font-size: 12px;
+      color: var(--grain);
+      margin-bottom: 24px;
+    }
+    .persona p { font-size: 13px; color: var(--grain); max-width: none; margin-bottom: 16px; line-height: 1.65; }
+    .persona-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--tungsten);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 20px 0 8px;
+    }
+
+    /* ── USAGE EXAMPLES ─────────────────────────────────── */
+    .usage-example {
+      background: var(--stills-gray);
+      padding: 40px;
+      margin: 24px 0;
+    }
+    .usage-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--tungsten);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .usage-content {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--frame-white);
+      line-height: 1.6;
+    }
+    .usage-note {
+      font-size: 12px;
+      color: var(--grain);
+      margin-top: 20px;
+      line-height: 1.6;
+      max-width: none;
+    }
+
+    /* ── CHECKLIST ─────────────────────────────────────── */
+    .checklist-group { margin-bottom: 48px; }
+    .checklist-group h4 { margin-top: 0; }
+    .checklist-items { list-style: none; }
+    .checklist-items li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--stills-gray);
+      font-size: 14px;
+      color: var(--frame-white);
+      line-height: 1.5;
+    }
+    .checklist-items li:last-child { border-bottom: none; }
+    .check-box {
+      width: 16px;
+      height: 16px;
+      border: 1px solid var(--grain);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ── MANIFESTO ─────────────────────────────────────── */
+    .manifesto p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 1.6;
+      color: var(--frame-white);
+      max-width: 720px;
+      margin-bottom: 32px;
+    }
+    .manifesto p strong {
+      font-weight: 600;
+      color: var(--tungsten);
+    }
+
+    /* ── LOGO PLACEHOLDER ─────────────────────────────── */
+    .logo-placeholder {
+      border: 1px dashed var(--stills-gray);
+      padding: 60px;
+      text-align: center;
+      margin: 40px 0;
+    }
+    .logo-ph-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--grain);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ── TABLE generic ─────────────────────────────────── */
+    table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 14px; }
+    th {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--grain);
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--stills-gray);
+    }
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--stills-gray);
+      color: var(--frame-white);
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    tr:last-child td { border-bottom: none; }
+    code {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      background: var(--stills-gray);
+      padding: 2px 6px;
+      color: var(--tungsten);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── FOOTER ─────────────────────────────────────────── */
+    .footer {
+      padding: 48px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--stills-gray);
+    }
+    .footer-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--grain);
+    }
+    .footer-note {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      color: var(--grain);
+      letter-spacing: 0.06em;
+      text-align: right;
+      line-height: 1.8;
+    }
+
+    /* ── RESPONSIVE ─────────────────────────────────────── */
+    @media (max-width: 720px) {
+      .cover { padding: 40px 32px; }
+      .page { padding: 0 32px; }
+      .values-grid { grid-template-columns: 1fr; }
+      .personas { grid-template-columns: 1fr; }
+      .palette { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════ COVER -->
+<div class="cover page">
+  <div class="cover-top">
+    <span class="cover-wordmark">WEARFRAME</span>
+    <div class="cover-meta">
+      BRAND MANUAL<br>
+      VERSION 1.0<br>
+      CONFIDENTIAL
+    </div>
+  </div>
+  <div class="cover-hero">
+    <div class="cover-title">Wear<br><em>the</em><br>moment.</div>
+    <div class="cover-tagline">— VISUAL IDENTITY, VOICE &amp; STANDARDS</div>
+  </div>
+  <div class="cover-bottom">
+    <p class="cover-desc">This document defines WEARFRAME's brand in full — its story, visual language, voice, and the standards that govern every piece of output we produce.</p>
+    <div class="cover-version">
+      FASHION — CINEMA &amp; SPORT<br>
+      ISSUED 2026
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ TOC -->
+<div class="page">
+  <div class="toc-section">
+    <div class="toc-label">Contents</div>
+    <ol class="toc-list">
+      <li><span class="toc-num">01</span><a href="#overview">Brand Overview</a></li>
+      <li><span class="toc-num">02</span><a href="#story">Brand Story &amp; Mission</a></li>
+      <li><span class="toc-num">03</span><a href="#values">Core Values</a></li>
+      <li><span class="toc-num">04</span><a href="#audience">Target Audience</a></li>
+      <li><span class="toc-num">05</span><a href="#identity">Visual Identity</a></li>
+      <li><span class="toc-num">06</span><a href="#voice">Voice &amp; Tone</a></li>
+      <li><span class="toc-num">07</span><a href="#usage">Usage Examples</a></li>
+      <li><span class="toc-num">08</span><a href="#not">What We Are Not</a></li>
+      <li><span class="toc-num">09</span><a href="#checklist">Brand Checklist</a></li>
+    </ol>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 01 OVERVIEW -->
+<div class="page" id="overview">
+  <div class="section">
+    <div class="section-label">01 — Brand Overview</div>
+    <h2>What WEARFRAME<br>stands for.</h2>
+    <p>WEARFRAME is a fashion label built on the idea that some moments are too significant to exist only in memory. We make garments — T-shirts, pants, hoodies — that carry the weight of legendary instants: the freeze-frame before a championship buzzer beater lands, the still before a cinematic line changes the way someone sees the world. We do not print nostalgia. We print significance.</p>
+    <p>Every piece in a WEARFRAME collection is designed around a single, specific moment — one that resonates beyond its original context. The image, the composition, the typography on each garment are treated the way a director treats a final cut: nothing is accidental, nothing is excess. The result is clothing that functions as wearable cultural shorthand — legible to those who know, intriguing to those who do not.</p>
+    <p>WEARFRAME occupies the space between streetwear and editorial fashion. It is not loud. It does not shout its references. It trusts its audience to recognize what matters, and it respects the intelligence of people who move through the world with their eyes open to culture — cinema, sport, history, the rare human moments that become permanent.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 02 STORY -->
+<div class="page" id="story">
+  <div class="section">
+    <div class="section-label">02 — Brand Story &amp; Mission</div>
+    <h2>Where it<br>started.</h2>
+
+    <p>WEARFRAME started with a single frame from a 1970s sports photograph — a moment so perfectly composed that it looked staged, but was not. The founder kept returning to it. Not because of the sport, or the era, but because of the feeling: that electric stillness that exists inside motion, the instant that contains everything that came before and everything that comes after. The question that followed was simple and stubborn:</p>
+
+    <blockquote><p>Why don't we wear that?</p></blockquote>
+
+    <p>The fashion market was full of nostalgia brands printing faded logos and heritage imagery with no real consideration for why any of it mattered. On the other side sat luxury streetwear — expensive, logo-heavy, more interested in signaling status than saying anything. Neither felt honest. WEARFRAME was built to answer the gap: clothing designed with the care of editorial photography, centered on moments that actually meant something, made for people who could tell the difference.</p>
+    <p>The first collection — three T-shirts, each anchored to a single cinematic or sporting freeze-frame — sold out in a weekend through word of mouth. No paid advertising. No influencer campaign. People recognized something real, and they told other people. That dynamic has never changed. WEARFRAME grows through resonance, not reach.</p>
+
+    <h3>Mission</h3>
+    <blockquote><p>To translate the world's most iconic cultural moments into garments built with editorial precision — giving people a way to carry meaning with them, quietly and permanently.</p></blockquote>
+
+    <h3>Vision</h3>
+    <blockquote><p>A world where what you wear is not a declaration of trend, but a statement of what you understand. WEARFRAME exists to be part of that shift: from fashion as noise to fashion as signal.</p></blockquote>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 03 VALUES -->
+<div class="page" id="values">
+  <div class="section">
+    <div class="section-label">03 — Core Values</div>
+    <h2>What we<br>believe.</h2>
+
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-num">I</div>
+        <div class="value-name">Precision</div>
+        <p class="value-desc">Carelessness is visible. Every design decision — placement, weight, contrast, scale — is made deliberately. WEARFRAME holds itself to the same standard a cinematographer holds a final frame: if it is in the picture, it is there for a reason.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">II</div>
+        <div class="value-name">Restraint</div>
+        <p class="value-desc">The most powerful moments do not announce themselves. WEARFRAME believes that the strongest designs make people look twice — not because they are loud, but because they reward attention. We edit relentlessly.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">III</div>
+        <div class="value-name">Cultural Honesty</div>
+        <p class="value-desc">We only work with moments that genuinely matter. No manufactured nostalgia, no borrowed cultural capital for its own sake. If a design cannot be traced back to a real, specific, significant moment in cinema or sport, it does not belong in the collection.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">IV</div>
+        <div class="value-name">Timelessness Over Trend</div>
+        <p class="value-desc">Trends are a distraction. WEARFRAME designs for the person who will still wear this in ten years — because what the garment references is still worth referencing in ten years. We do not chase the cultural moment of the week.</p>
+      </div>
+      <div class="value-card" style="grid-column: span 2;">
+        <div class="value-num">V</div>
+        <div class="value-name">Trust in the Audience</div>
+        <p class="value-desc">WEARFRAME does not over-explain. We trust that the people who pick up our garments will recognize what they are holding, or will become curious enough to find out. Subtlety is a form of respect for the intelligence of the wearer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 04 AUDIENCE -->
+<div class="page" id="audience">
+  <div class="section">
+    <div class="section-label">04 — Target Audience</div>
+    <h2>Who we<br>dress.</h2>
+
+    <div class="personas">
+      <div class="persona">
+        <div class="persona-role">Primary — Millennial</div>
+        <div class="persona-title">The Cultural Custodian</div>
+        <div class="persona-age">Age 28–40 · Career-established</div>
+        <p>Grew up during the peak of cinema culture and the golden era of sport. References Kubrick and Kobe in the same breath without irony. Has strong opinions about what they wear and stronger opinions about what they will not.</p>
+        <p>They have largely moved away from logo-heavy streetwear — not because they do not care about fashion, but because they care too much to wear something that says nothing. They shop deliberately and infrequently. When they find something that resonates, they tell people.</p>
+        <div class="persona-tag">Motivated by</div>
+        <p>Recognition. Specificity. Quality that justifies itself without requiring justification.</p>
+        <div class="persona-tag">Rejects</div>
+        <p>Over-branding, trend dependency, anything manufactured for social media engagement rather than actual wear.</p>
+      </div>
+      <div class="persona">
+        <div class="persona-role">Secondary — Gen Z</div>
+        <div class="persona-title">The Discovery Seeker</div>
+        <div class="persona-age">Age 18–27 · Culturally exploratory</div>
+        <p>Actively building their cultural reference library. Discovering classic cinema and sports history on their own terms — through algorithm, archive, and peer conversation — with genuine enthusiasm.</p>
+        <p>Drawn to brands that feel like insiders rather than broadcasters. Highly attuned to authenticity and immediately fluent in detecting its absence.</p>
+        <div class="persona-tag">Motivated by</div>
+        <p>Discovery. Aesthetic coherence. Belonging to a community that does not require constant explanation.</p>
+        <div class="persona-tag">Rejects</div>
+        <p>Brands that perform relevance. Loud nostalgia that does not come with actual understanding of what is being referenced.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 05 IDENTITY -->
+<div class="page" id="identity">
+  <div class="section">
+    <div class="section-label">05 — Visual Identity</div>
+    <h2>The visual<br>language.</h2>
+
+    <!-- LOGO -->
+    <h3>5.1 — Logo</h3>
+    <div class="logo-placeholder">
+      <div class="logo-ph-label">Logo artwork — Pending finalization<br><br>Concept draft in progress. All spacing and usage rules below apply<br>to the finalized version without change.</div>
+    </div>
+
+    <h4>Approved Background Applications</h4>
+    <table>
+      <thead><tr><th>Background</th><th>Logo Treatment</th></tr></thead>
+      <tbody>
+        <tr><td>Reel Black <code>#0D0D0D</code></td><td>Frame White version</td></tr>
+        <tr><td>Frame White <code>#F5F2ED</code></td><td>Reel Black version</td></tr>
+        <tr><td>Stills Gray <code>#2B2B2B</code></td><td>Frame White version</td></tr>
+        <tr><td>Mid-tone surfaces</td><td>Black or white — min 4.5:1 contrast required</td></tr>
+      </tbody>
+    </table>
+
+    <h4>Logo Rules</h4>
+    <table>
+      <thead><tr><th>Do</th><th>Do Not</th></tr></thead>
+      <tbody>
+        <tr><td>Maintain clear space equal to cap height on all four sides</td><td>Apply drop shadows, glows, or outlines</td></tr>
+        <tr><td>Use full aspect ratio — never stretch or condense</td><td>Place on busy photographic backgrounds without a solid field</td></tr>
+        <tr><td>Apply only approved color combinations</td><td>Rotate the logo at any angle</td></tr>
+        <tr><td>Use wordmark alone where space requires</td><td>Alter letter spacing or apply effects to letterforms</td></tr>
+        <tr><td>Minimum 80px wide (digital) / 20mm wide (print)</td><td>Use any logo version before creative direction confirms finalization</td></tr>
+      </tbody>
+    </table>
+
+    <!-- COLOR -->
+    <h3>5.2 — Color Palette</h3>
+    <p>Built on the visual grammar of cinema: the deep blacks of a darkened theater, the warm off-whites of aged celluloid, the muted tones of stadium concrete and analog grain. Accents appear sparingly — like a single color in a predominantly monochromatic film.</p>
+
+    <div class="palette">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#0D0D0D; border: 1px solid #2B2B2B;"></div>
+        <div class="swatch-info">
+          <span class="swatch-name">Reel Black</span>
+          <span class="swatch-hex">#0D0D0D · RGB 13, 13, 13</span>
+          <p class="swatch-role">Primary background. Logo on light. Dominant garment colorway.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#F5F2ED;"></div>
+        <div class="swatch-info">
+          <span class="swatch-name">Frame White</span>
+          <span class="swatch-hex">#F5F2ED · RGB 245, 242, 237</span>
+          <p class="swatch-role">Primary text on dark. Logo on dark surfaces. Secondary colorway.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#2B2B2B;"></div>
+        <div class="swatch-info">
+          <span class="swatch-name">Stills Gray</span>
+          <span class="swatch-hex">#2B2B2B · RGB 43, 43, 43</span>
+          <p class="swatch-role">Secondary backgrounds. UI containers. Dark composition layering.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#8A8680;"></div>
+        <div class="swatch-info">
+          <span class="swatch-name">Grain</span>
+          <span class="swatch-hex">#8A8680 · RGB 138, 134, 128</span>
+          <p class="swatch-role">Secondary text, captions, metadata, dividers.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#C8A96E;"></div>
+        <div class="swatch-info">
+          <span class="swatch-name">Tungsten</span>
+          <span class="swatch-hex">#C8A96E · RGB 200, 169, 110</span>
+          <p class="swatch-role">Accent only. Limited editions, select highlights. Never dominant. Never on standard garments.</p>
+        </div>
+      </div>
+    </div>
+
+    <h4>Color Rules</h4>
+    <ul style="list-style:none; margin: 0 0 40px;">
+      <li style="padding:10px 0; border-bottom:1px solid var(--stills-gray); font-size:14px; color:var(--frame-white);">Never split Reel Black and Frame White equally — one must dominate.</li>
+      <li style="padding:10px 0; border-bottom:1px solid var(--stills-gray); font-size:14px; color:var(--frame-white);">Tungsten appears once per composition at most, and only where earned.</li>
+      <li style="padding:10px 0; border-bottom:1px solid var(--stills-gray); font-size:14px; color:var(--frame-white);">Never use full-saturation color. WEARFRAME does not do bright.</li>
+      <li style="padding:10px 0; border-bottom:1px solid var(--stills-gray); font-size:14px; color:var(--frame-white);">All photography must be palette-compatible — desaturated or naturally muted only.</li>
+      <li style="padding:10px 0; font-size:14px; color:var(--frame-white);">Body text must meet WCAG AA minimum (4.5:1); display text minimum 3:1.</li>
+    </ul>
+
+    <!-- TYPOGRAPHY -->
+    <h3>5.3 — Typography</h3>
+    <p>Editorial and architectural. It occupies space with confidence. It does not decorate — it structures. All fonts are available via Google Fonts.</p>
+
+    <h4>Headline — Cormorant Garamond</h4>
+    <div class="type-specimen">
+      <div class="specimen-label">Cormorant Garamond · SemiBold 600</div>
+      <div class="specimen-headline">One frame.<br>Everything.</div>
+    </div>
+    <table class="type-spec">
+      <thead><tr><th>Role</th><th>Size</th><th>Weight</th><th>Line Height</th><th>Letter Spacing</th></tr></thead>
+      <tbody>
+        <tr><td>Display / Hero</td><td>72–96px</td><td>300 or 600</td><td>1.05×</td><td>−0.02em</td></tr>
+        <tr><td>Section Heading</td><td>40–56px</td><td>600</td><td>1.1×</td><td>−0.01em</td></tr>
+        <tr><td>Sub-heading</td><td>24–32px</td><td>400</td><td>1.2×</td><td>0em</td></tr>
+      </tbody>
+    </table>
+
+    <h4>Body — DM Sans</h4>
+    <div class="type-specimen">
+      <div class="specimen-label">DM Sans · Regular 400</div>
+      <div class="specimen-body">Every word is chosen. Every sentence has been edited. WEARFRAME copy does not use filler language, transitional pleasantries, or vague gestures toward meaning. It says the specific thing, or it says nothing.</div>
+    </div>
+    <table class="type-spec">
+      <thead><tr><th>Role</th><th>Size</th><th>Weight</th><th>Line Height</th><th>Letter Spacing</th></tr></thead>
+      <tbody>
+        <tr><td>Body Standard</td><td>15–16px</td><td>400</td><td>1.6×</td><td>0em</td></tr>
+        <tr><td>Caption / Metadata</td><td>12px</td><td>400</td><td>1.4×</td><td>0em</td></tr>
+        <tr><td>All-caps Label</td><td>12px</td><td>500</td><td>1.4×</td><td>+0.04em</td></tr>
+        <tr><td>Fine Print</td><td>10px</td><td>400</td><td>1.4×</td><td>0em</td></tr>
+      </tbody>
+    </table>
+
+    <h4>Accent / Label — Space Mono</h4>
+    <div class="type-specimen">
+      <div class="specimen-label">Space Mono · Regular 400</div>
+      <div class="specimen-mono">ARCHIVE SERIES — VOLUME 03 · FRAME 2,847 · 1986</div>
+    </div>
+    <table class="type-spec">
+      <thead><tr><th>Role</th><th>Size</th><th>Weight</th><th>Letter Spacing</th></tr></thead>
+      <tbody>
+        <tr><td>Label / Edition</td><td>10–13px</td><td>400</td><td>+0.08em always</td></tr>
+        <tr><td>Metadata Tag</td><td>10px</td><td>700</td><td>+0.08em always</td></tr>
+      </tbody>
+    </table>
+    <p style="color:var(--grain); font-size:13px;">Space Mono is never used at large scale. It exists at the edge of compositions, as precision detail — never as a headline.</p>
+
+    <!-- LAYOUT -->
+    <h3>5.4 — Spacing &amp; Layout</h3>
+    <table class="type-spec">
+      <thead><tr><th>Principle</th><th>Rule</th></tr></thead>
+      <tbody>
+        <tr><td>Margins</td><td>Min 48px digital · 20mm print</td></tr>
+        <tr><td>Focal point</td><td>One per composition — always</td></tr>
+        <tr><td>Alignment</td><td>Deliberate asymmetry over symmetry; centered text for display headlines only</td></tr>
+        <tr><td>Grid</td><td>12-column digital · 6-column print · no exceptions without creative sign-off</td></tr>
+        <tr><td>Decoration</td><td>None — no borders, drop shadows, gradients, texture overlays, or decorative dividers</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 06 VOICE -->
+<div class="page" id="voice">
+  <div class="section">
+    <div class="section-label">06 — Voice &amp; Tone</div>
+    <h2>How we<br>speak.</h2>
+
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-num">—</div>
+        <div class="value-name">Understated</div>
+        <p class="value-desc">WEARFRAME never oversells. The writing does not tell people how to feel — it creates the conditions for feeling. Where another brand might write "this is iconic," WEARFRAME lets the moment speak. Adjectives are earned or absent.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">—</div>
+        <div class="value-name">Precise</div>
+        <p class="value-desc">Every word is chosen. Every sentence has been edited. WEARFRAME copy does not use filler language, transitional pleasantries, or vague gestures toward meaning. It says the specific thing, or it says nothing.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">—</div>
+        <div class="value-name">Confident</div>
+        <p class="value-desc">The brand does not seek approval. It does not add qualifiers to soften its positions. WEARFRAME copy states its perspective plainly and moves on. Confidence is not aggression — it is the absence of hedging.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">—</div>
+        <div class="value-name">Cinematic</div>
+        <p class="value-desc">The writing has rhythm. It builds and releases. It sometimes holds a beat longer than expected. WEARFRAME copy can be read aloud and feel right — because it is structured the way a scene is structured: with intention, pacing, and a clear sense of when something lands.</p>
+      </div>
+    </div>
+
+    <h3>Do / Don't</h3>
+    <table class="ddt">
+      <thead><tr><th>Write this</th><th>Not this</th></tr></thead>
+      <tbody>
+        <tr><td>"One frame. Eleven seconds of silence. A career."</td><td>"This iconic piece celebrates one of sports history's most memorable moments!"</td></tr>
+        <tr><td>"The hoodie exists for one reason."</td><td>"Our amazing new hoodie is here and it's everything you've been waiting for!"</td></tr>
+        <tr><td>"Not every jersey becomes permanent. This one did."</td><td>"Show your passion for the game with our limited edition sports-inspired collection."</td></tr>
+        <tr><td>"Wear the moment. Or don't. It will still have happened."</td><td>"Be part of something bigger — join the WEARFRAME community today!"</td></tr>
+        <tr><td>"Frame 2,847. Unchanged since 1986."</td><td>"Throwback vibes with a modern twist — perfect for any occasion!"</td></tr>
+        <tr><td>"Made for the person who already knows."</td><td>"Whether you're a film buff or sports fanatic, there's something for everyone!"</td></tr>
+        <tr><td>"Limited. As all significant things are."</td><td>"Hurry — limited stock available! Don't miss out on this exclusive drop!"</td></tr>
+        <tr><td>"Quiet on the outside. Everything on the inside."</td><td>"Express yourself with WEARFRAME's bold new statement pieces."</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Writing Rules</h3>
+    <table class="type-spec">
+      <thead><tr><th>Rule</th><th>Guideline</th></tr></thead>
+      <tbody>
+        <tr><td>Sentence length</td><td>Vary deliberately. Max 25 words per sentence in body copy. No more than two long sentences in sequence.</td></tr>
+        <tr><td>Exclamation marks</td><td>Do not exist in WEARFRAME copy.</td></tr>
+        <tr><td>Em dashes</td><td>Used for pause and emphasis only — not parenthetical asides.</td></tr>
+        <tr><td>Ellipses</td><td>Rarely. Only when trailing silence is genuinely intentional.</td></tr>
+        <tr><td>Capitalization</td><td>Sentence case for headlines. Title case for collection and product names. ALL CAPS only in label/Space Mono contexts.</td></tr>
+        <tr><td>Numbers</td><td>Always numerals. Frame references: "Frame 2,847."</td></tr>
+        <tr><td>Tense</td><td>Present for brand copy. Past for historical moments. Future only for confirmed, concrete events.</td></tr>
+        <tr><td>Banned words</td><td>amazing, iconic (without context), exclusive, drop (noun), collab, vibe, statement piece, community (marketing), journey, elevate, curated, game-changing</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 07 USAGE -->
+<div class="page" id="usage">
+  <div class="section">
+    <div class="section-label">07 — Usage Examples</div>
+    <h2>The brand<br>in context.</h2>
+
+    <div class="usage-example">
+      <div class="usage-label">Instagram Caption</div>
+      <div class="usage-content">
+        1972. A stadium in Munich.<br>
+        One frame before the world changed.<br>
+        <br>
+        The Archive Series. Available now.<br>
+        Wear the moment.
+      </div>
+      <p class="usage-note">No hashtag blocks in the caption. One or two tags maximum, placed in the first comment if used.</p>
+    </div>
+
+    <div class="usage-example">
+      <div class="usage-label">Product Tag — Front</div>
+      <div class="usage-content" style="font-family:'Space Mono',monospace; font-size:14px; font-style:normal; letter-spacing:0.06em;">
+        WEARFRAME<br>
+        FRAME 1,204 — 1994
+      </div>
+    </div>
+
+    <div class="usage-example">
+      <div class="usage-label">Product Tag — Back</div>
+      <div class="usage-content">
+        This piece was designed around a single moment.<br>
+        You will recognize it, or you will find out why it matters.<br>
+        Either way, it is permanent.<br>
+        <br>
+        100% organic cotton. Made to last.
+      </div>
+    </div>
+
+    <div class="usage-example">
+      <div class="usage-label">Email Subject Lines</div>
+      <div class="usage-content">
+        The moment you have been wearing without knowing it.<br>
+        <span style="font-size:16px; color:var(--grain);">— or —</span><br>
+        New collection. No explanation needed.<br>
+        <span style="font-size:16px; color:var(--grain);">— or —</span><br>
+        This ends tonight. So did the game.
+      </div>
+    </div>
+
+    <div class="usage-example">
+      <div class="usage-label">Website Hero</div>
+      <div class="usage-content" style="font-size:36px; font-weight:600; font-style:normal;">
+        Wear the moment.
+      </div>
+      <div style="margin-top:20px; font-family:'DM Sans',sans-serif; font-size:15px; color:var(--grain); line-height:1.6;">
+        WEARFRAME designs around the instants that became permanent.<br>
+        Cinema. Sport. The freeze-frame before everything changed.
+      </div>
+      <div style="margin-top:20px; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.1em; color:var(--frame-white);">
+        EXPLORE THE COLLECTION
+      </div>
+    </div>
+
+    <div class="usage-example">
+      <div class="usage-label">In-Store Wall Signage</div>
+      <div class="usage-content" style="font-size:32px; font-weight:300;">
+        Some moments become permanent<br>
+        the instant they happen.<br>
+        <br>
+        This is clothing for the person<br>
+        who understands why.
+      </div>
+      <div style="margin-top:28px; font-family:'Space Mono',monospace; font-size:11px; letter-spacing:0.1em; color:var(--grain);">
+        ARCHIVE SERIES — VOLUME 03
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 08 NOT -->
+<div class="page" id="not">
+  <div class="section">
+    <div class="section-label">08 — What We Are Not</div>
+    <h2>The line<br>we hold.</h2>
+
+    <div class="manifesto">
+      <p><strong>WEARFRAME is not a nostalgia brand.</strong> We do not sell the feeling of a past decade — we work with specific, significant moments because they are still present, still alive in cultural memory, still worth naming. If your first instinct when you see our work is "retro," you are not yet reading it correctly.</p>
+      <p><strong>We are not a streetwear brand performing humility.</strong> The quietness of WEARFRAME is not a strategy for appearing accessible — it is a genuine position. We do not want everyone. We want the people who understand the work. Market share is not a value we hold.</p>
+      <p><strong>We are not interested in trend cycles.</strong> We do not release a collection because something is having a cultural moment right now. We operate on a different timeline — the timeline of what lasts. If a design needs to be released this week to be relevant, it was never a WEARFRAME design.</p>
+      <p><strong>We do not use our garments as billboards.</strong> The logo is not the point. The moment is the point. Garments that exist only to display the brand name are advertisements, not clothing. WEARFRAME makes clothing.</p>
+      <p><strong>We are not a "community."</strong> We do not use that word. What we have is an audience of people with taste, patience, and cultural curiosity. They found us. They do not need to be managed or gamified into loyalty.</p>
+      <p><strong>We do not manufacture urgency.</strong> When something is limited, it is because the run is genuinely finite and the design belongs to a specific moment — not because artificial scarcity drives conversions. WEARFRAME does not perform. It exists, with precision, and waits for the right people to find it.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ 09 CHECKLIST -->
+<div class="page" id="checklist">
+  <div class="section">
+    <div class="section-label">09 — Brand Checklist</div>
+    <h2>Before you<br>publish.</h2>
+    <p>Use before publishing any WEARFRAME asset — digital, physical, or printed. Every item must be confirmed before release.</p>
+
+    <div class="checklist-group">
+      <h4>Visual</h4>
+      <ul class="checklist-items">
+        <li><span class="check-box"></span>All colors are from the approved WEARFRAME palette — no substitutions, no full-saturation color</li>
+        <li><span class="check-box"></span>Typography uses only Cormorant Garamond, DM Sans, or Space Mono in approved weights and sizes</li>
+        <li><span class="check-box"></span>Logo has full required clear space maintained on all four sides</li>
+        <li><span class="check-box"></span>Logo is not distorted, rotated, recolored outside approved treatments, or on a conflicting background</li>
+        <li><span class="check-box"></span>Composition has a single clear focal point — not two or more competing elements</li>
+        <li><span class="check-box"></span>No drop shadows, gradients, decorative borders, or texture overlays present</li>
+        <li><span class="check-box"></span>Photography is desaturated or naturally muted — no bright, fully saturated imagery</li>
+        <li><span class="check-box"></span>Layout uses the approved grid (12-column digital / 6-column print)</li>
+        <li><span class="check-box"></span>Minimum margins observed (48px digital / 20mm print)</li>
+        <li><span class="check-box"></span>Tungsten accent appears once at most and only where compositionally intentional</li>
+      </ul>
+    </div>
+
+    <div class="checklist-group">
+      <h4>Copy</h4>
+      <ul class="checklist-items">
+        <li><span class="check-box"></span>No exclamation marks anywhere in the copy</li>
+        <li><span class="check-box"></span>No banned words: amazing, iconic without context, exclusive, vibe, community, journey, collab, drop (noun), elevate, curated, game-changing</li>
+        <li><span class="check-box"></span>Sentence length varies — no more than two long sentences appear in sequence</li>
+        <li><span class="check-box"></span>Tone is understated, precise, confident, and cinematic throughout</li>
+        <li><span class="check-box"></span>Copy does not tell the audience how to feel — it presents; it does not instruct</li>
+        <li><span class="check-box"></span>All numbers appear as numerals</li>
+        <li><span class="check-box"></span>Capitalization follows the rules: sentence case headlines, title case for collection and product names, ALL CAPS only in label and accent type contexts</li>
+        <li><span class="check-box"></span>The specific cultural moment referenced is real, traceable, and named or clearly implied</li>
+      </ul>
+    </div>
+
+    <div class="checklist-group">
+      <h4>Brand Alignment</h4>
+      <ul class="checklist-items">
+        <li><span class="check-box"></span>The design or copy could not be mistaken for another brand's output</li>
+        <li><span class="check-box"></span>The work reflects restraint — anything that can be removed without loss has been removed</li>
+        <li><span class="check-box"></span>The work trusts the audience — nothing is over-explained or hand-held</li>
+        <li><span class="check-box"></span>The piece belongs on a ten-year timeline, not a ten-day one</li>
+        <li><span class="check-box"></span>A WEARFRAME creative team member has reviewed and approved before publication</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ FOOTER -->
+<div class="page">
+  <div class="footer">
+    <div class="footer-brand">WEARFRAME</div>
+    <div class="footer-note">
+      Brand Manual — Version 1.0<br>
+      Internal use only. Not for distribution outside authorized brand partners.<br>
+      All visual assets subject to revision pending logo finalization.
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
