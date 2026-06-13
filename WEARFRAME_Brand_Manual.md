@@ -1,9 +1,9 @@
 # WEARFRAME Brand Manual
-### Version 1.0 — Internal Reference Document
+### Version 1.0 — Confidential
 
 ---
 
-> *Wear the moment.*
+> *"Wear the moment."*
 
 ---
 
@@ -23,11 +23,11 @@
 
 ## 1. Brand Overview
 
-WEARFRAME is a fashion label built on the belief that certain moments — a final-second shot, a slow-motion sprint, a close-up that changed cinema — deserve to live beyond the screen. Each piece in the WEARFRAME collection is a garment built around one such instant: the kind of freeze-frame that gets burned into cultural memory and never leaves. T-shirts, pants, and hoodies that don't announce themselves loudly, but carry weight for those who recognize what they're wearing.
+WEARFRAME is a fashion label built on the idea that some moments are too significant to exist only in memory. We make garments — T-shirts, pants, hoodies — that carry the weight of legendary instants: the freeze-frame before a championship buzzer beater lands, the still before a cinematic line changes the way someone sees the world. We do not print nostalgia. We print significance.
 
-The brand sits at the intersection of fashion and cultural reverence. WEARFRAME is not merchandise. It is not memorabilia. It is clothing for people who understand that some moments are timeless — and that wearing one is a quiet, deliberate act of taste. The garment is the frame. The person wearing it completes the picture.
+Every piece in a WEARFRAME collection is designed around a single, specific moment — one that resonates beyond its original context. The image, the composition, the typography on each garment are treated the way a director treats a final cut: nothing is accidental, nothing is excess. The result is clothing that functions as wearable cultural shorthand — legible to those who know, intriguing to those who do not.
 
-WEARFRAME is built for an audience that grew up on both the highlight reel and the criterion collection. They know the difference between a franchise and a classic. They don't need to explain their reference. They just wear it.
+WEARFRAME occupies the space between streetwear and editorial fashion. It is not loud. It does not shout its references. It trusts its audience to recognize what matters, and it respects the intelligence of people who move through the world with their eyes open to culture — cinema, sport, history, the rare human moments that become permanent.
 
 ---
 
@@ -35,62 +35,71 @@ WEARFRAME is built for an audience that grew up on both the highlight reel and t
 
 ### Origin Narrative
 
-It started with a single image: Muhammad Ali standing over Sonny Liston, right fist raised, face lit like a god. The photographer who took that shot in 1965 called it an accident. Everyone else called it an icon. The question WEARFRAME was built around is simple — what does it feel like to carry that moment on your body?
+WEARFRAME started with a single frame from a 1970s sports photograph — a moment so perfectly composed that it looked staged, but was not. The founder kept returning to it. Not because of the sport, or the era, but because of the feeling: that electric stillness that exists inside motion, the instant that contains everything that came before and everything that comes after. The question that followed was simple and stubborn: *why don't we wear that?*
 
-WEARFRAME was founded on the idea that cinema and sport produce the most potent visual culture of any era, and that the peak moments of both disciplines deserve a different kind of preservation. Not a poster. Not a print. A garment. Something you pull on before you leave the house, that sits against your skin all day, that you eventually forget you're wearing — and then someone across the room recognizes it and something passes between you without a word spoken.
+The fashion market was full of nostalgia brands printing faded logos and heritage imagery with no real consideration for why any of it mattered. On the other side sat luxury streetwear — expensive, logo-heavy, more interested in signaling status than saying anything. Neither felt honest. WEARFRAME was built to answer the gap: clothing designed with the care of editorial photography, centered on moments that actually meant something, made for people who could tell the difference.
 
-Every WEARFRAME piece begins in the archive: frame by frame, play by play, searching for the instants that crystallized into legend. The design process is curatorial before it is creative. The garment is secondary to the moment. The moment drives everything.
+The first collection — three T-shirts, each anchored to a single cinematic or sporting freeze-frame — sold out in a weekend through word of mouth. No paid advertising. No influencer campaign. People recognized something real, and they told other people. That dynamic has never changed. WEARFRAME grows through resonance, not reach.
 
 ### Mission Statement
 
-To translate the most iconic instants in cinema and sport into refined, wearable objects — clothing that carries cultural weight without shouting it.
+To translate the world's most iconic cultural moments into garments built with editorial precision — giving people a way to carry meaning with them, quietly and permanently.
 
 ### Vision Statement
 
-To become the definitive fashion label for people who understand that the greatest moments in human performance deserve to be worn, not just remembered.
+A world where what you wear is not a declaration of trend, but a statement of what you understand. WEARFRAME exists to be part of that shift: from fashion as noise to fashion as signal.
 
 ---
 
 ## 3. Core Values
 
-### 01. The Moment Is Sacred
-Every WEARFRAME piece is built around a specific, real instant in cultural history. We do not invent mythology — we identify it. Every design decision traces back to the integrity of the moment it represents.
+### I. Precision
 
-### 02. Restraint Is a Statement
-Loudness is easy. Subtlety requires confidence. WEARFRAME speaks quietly because the moments we reference already speak volumes. Our aesthetic is controlled, minimal, and precise — because anything more would compete with the source material.
+Carelessness is visible. Every design decision — placement, weight, contrast, scale — is made deliberately. WEARFRAME holds itself to the same standard a cinematographer holds a final frame: if it is in the picture, it is there for a reason.
 
-### 03. Timelessness Over Trend
-We do not design for the season. We design for the archive. A WEARFRAME piece should feel as relevant in ten years as it does today, because the moments we build from are already proven to last.
+### II. Restraint
 
-### 04. Craft Without Compromise
-The garment is the frame. If the frame is cheap, the moment inside it loses meaning. Every material, cut, and finish decision is held to a standard that respects what the clothing carries.
+The most powerful moments do not announce themselves. WEARFRAME believes that the strongest designs make people look twice — not because they are loud, but because they reward attention. We edit relentlessly.
 
-### 05. Recognition Over Explanation
-WEARFRAME is for people who get it. We do not over-explain our references, over-expose our designs, or dilute our voice to reach a broader room. The right person will stop, look, and know immediately.
+### III. Cultural Honesty
+
+We only work with moments that genuinely matter. No manufactured nostalgia, no borrowed cultural capital for its own sake. If a design cannot be traced back to a real, specific, significant moment in cinema or sport, it does not belong in the collection.
+
+### IV. Timelessness Over Trend
+
+Trends are a distraction. WEARFRAME designs for the person who will still wear this in ten years — because what the garment references is still worth referencing in ten years. We do not chase the cultural moment of the week.
+
+### V. Trust in the Audience
+
+WEARFRAME does not over-explain. We trust that the people who pick up our garments will recognize what they are holding, or will become curious enough to find out. Subtlety is a form of respect for the intelligence of the wearer.
 
 ---
 
 ## 4. Target Audience
 
-### Primary Persona — The Millennial Archivist
+### Primary Persona — The Millennial Cultural Custodian
 
 **Age:** 28–40  
-**Profile:** Educated, culturally literate, disposable income growing. They grew up watching the films and games that WEARFRAME references — not as nostalgia, but as formative experience. They remember where they were the first time they saw the moment. They buy less and buy better. They are skeptical of brand marketing and will notice the difference between a label that understands its references and one that is borrowing them for aesthetics.
+**Orientation:** Career-established, culturally invested, selective consumer
 
-**What motivates them:** Authenticity, specificity, restraint. They want clothing that communicates taste without performing it. They are drawn to brands that have a genuine point of view and hold to it.
+This person grew up during the peak of cinema culture and the golden era of sport. They reference Kubrick and Kobe in the same breath without irony. They have strong opinions about what they wear and stronger opinions about what they will not wear. They have largely moved away from logo-heavy streetwear — not because they do not care about fashion, but because they care too much to wear something that says nothing. They shop deliberately and infrequently. When they find something that resonates, they tell people.
 
-**What they reject:** Loud branding, fast fashion cycles, pieces that feel like merch. They will not wear a logo they don't believe in. They have walked away from brands that sold out or diluted their identity for scale.
+**What motivates them:** Recognition — the feeling that a brand understands what they value. Specificity — they respond to real references, not vague aesthetic gestures. Quality that justifies the price without requiring justification.
+
+**What they reject:** Over-branding, trend dependency, anything that feels manufactured for social media engagement rather than actual wear. They distrust brands that try too hard to signal coolness.
 
 ---
 
-### Secondary Persona — The Gen Z Curator
+### Secondary Persona — The Gen Z Discovery Seeker
 
 **Age:** 18–27  
-**Profile:** Digital native, visually sophisticated, deeply fluent in both archive culture and current aesthetics. They discovered the classics through streaming, algorithm, and recommendation — and they treat them with the same reverence as someone who was there. They are drawn to vintage aesthetics but reject inauthenticity. They thrift, they research, they know the difference.
+**Orientation:** Culturally exploratory, aesthetics-literate, skeptical of traditional brand narratives
 
-**What motivates them:** Identity expression through cultural literacy. Wearing WEARFRAME is a signal — to themselves and to others — about what they value and what they know. They respond to brands that treat them as intelligent.
+This person is actively building their cultural reference library. They are discovering classic cinema and sports history on their own terms — through algorithm, archive, and peer conversation — and they approach it with genuine enthusiasm. They are drawn to brands that feel like insiders rather than broadcasters. They are highly attuned to authenticity and immediately fluent in detecting its absence.
 
-**What they reject:** Nostalgia-bait, watered-down references, anything that feels manufactured for them. They can detect pandering at a distance and they punish it with disengagement.
+**What motivates them:** Discovery — the sense that wearing something marks them as someone who knows. Aesthetic coherence — they notice when a brand's visual identity is consistent and intentional. Belonging to a community that does not require constant explanation.
+
+**What they reject:** Brands that perform relevance. Anything that feels like a marketing department's idea of what young people like. Loud nostalgia that does not come with actual understanding of what is being referenced.
 
 ---
 
@@ -98,38 +107,44 @@ WEARFRAME is for people who get it. We do not over-explain our references, over-
 
 ### 5.1 Logo
 
-> **Status: Concept draft in development. Final mark pending.**
+> **Status: Concept draft in progress — final artwork pending finalization.**
 
-The WEARFRAME logo is built on the visual language of a film frame — structured, precise, and built to contain something significant. The wordmark uses clean, uppercase letterforms with considered spacing. There is no decorative element for its own sake.
+The WEARFRAME logo should feel like a title card: clean, authoritative, still. It should function as a single block of typographic identity rather than an illustrative mark. The following rules apply to the concept framework and will carry over unchanged to the finalized version.
 
-**Spacing Rules (apply immediately; revise as final mark is settled)**
+#### Spacing Rules (Clear Space)
 
-- Clear space on all sides: minimum equal to the cap-height of the "W" in the wordmark
-- Never reduce the logo below 24px in digital contexts or 15mm in print
-- On garments, the logo appears at a single approved placement per product category (confirmed at final design stage)
+Maintain a minimum clear space around the logo equal to the cap height of the wordmark on all four sides. No other graphic elements, text, or image content may enter this zone.
 
-**Background Rules**
+#### Approved Background Applications
 
-- Primary use: Reel Black background, Frame White wordmark
-- Reversed use: Frame White or Grain Ivory background, Reel Black wordmark
-- Never place the logo on a patterned or photographic background without a solid field behind it
+| Background | Logo Treatment |
+|---|---|
+| Reel Black (#0D0D0D) | Frame White version |
+| Frame White (#F5F2ED) | Reel Black version |
+| Stills Gray (#2B2B2B) | Frame White version |
+| Mid-tone surfaces | Black or white version, minimum 4.5:1 contrast ratio required |
 
-**Do**
-- Use the logo at approved sizes and in approved colorways only
-- Maintain clear space at all times
-- Scale proportionally
+#### Do
 
-**Do Not**
-- Stretch, compress, rotate, or skew the mark
-- Apply drop shadows, outlines, or gradients
-- Use the logo in any color outside the approved palette
-- Place the logo in a context that competes visually with the mark itself
+- Use the logo at its full aspect ratio — never stretch or condense
+- Apply only approved color combinations from the brand palette
+- Maintain clear space at all reproduction sizes
+- Use the wordmark alone where space requires; do not add decorative framing elements around it
+
+#### Do Not
+
+- Do not apply drop shadows, glows, or outlines
+- Do not place the logo on busy photographic backgrounds without a solid color field underneath
+- Do not use the logo at sizes smaller than 80px wide in digital or 20mm wide in print
+- Do not rotate the logo at any angle
+- Do not alter letter spacing or apply effects to individual letterforms
+- Do not use any version of the logo before creative direction has confirmed finalization
 
 ---
 
 ### 5.2 Color Palette
 
-The WEARFRAME palette is cinematic, considered, and quiet. It draws from the look of archival footage, darkroom prints, and the space before a match begins. Every color is chosen to support the moment, not distract from it.
+The WEARFRAME palette is built on the visual grammar of cinema: the deep blacks of a darkened theater, the warm off-whites of aged celluloid, the muted tones of stadium concrete and analog grain. Accents appear sparingly — like a single color in a predominantly monochromatic film.
 
 ---
 
@@ -138,156 +153,163 @@ The WEARFRAME palette is cinematic, considered, and quiet. It draws from the loo
 **Reel Black**
 - Hex: `#0D0D0D`
 - RGB: 13, 13, 13
-- Usage: Primary background color. Body copy on light backgrounds. Dominant color on all core garments. The anchor of the palette.
+- Usage: Primary background color, logo on light surfaces, dominant garment colorway, packaging base. This is WEARFRAME's defining tone — not pure black, but the near-black of a projection screen before the film begins.
+
+---
 
 **Frame White**
-- Hex: `#F2F0EB`
-- RGB: 242, 240, 235
-- Usage: Primary light background. Text on dark fields. Not a pure white — the warmth is intentional, referencing the slight yellow of aged photographic paper.
+- Hex: `#F5F2ED`
+- RGB: 245, 242, 237
+- Usage: Primary text on dark backgrounds, logo on dark surfaces, secondary garment colorway. Warm rather than clinical — the color of unbleached cotton and old film stock held to light.
 
 ---
 
 #### Secondary Colors
 
-**Grain Ivory**
-- Hex: `#E8E2D5`
-- RGB: 232, 226, 213
-- Usage: Secondary background. Tag and label fields. Packaging base color. Sits between Frame White and a full neutral, carrying warmth without weight.
+**Stills Gray**
+- Hex: `#2B2B2B`
+- RGB: 43, 43, 43
+- Usage: Secondary backgrounds, UI container elements, layering within dark compositions. Creates depth without breaking monochromatic discipline.
 
-**Lens Grey**
-- Hex: `#6B6B6B`
-- RGB: 107, 107, 107
-- Usage: Supporting body text. Secondary UI elements. Dividers. Captions. Provides hierarchy without introducing a new color.
+---
+
+**Grain**
+- Hex: `#8A8680`
+- RGB: 138, 134, 128
+- Usage: Secondary text, captions, metadata, dividing lines, subtle UI elements. The visual equivalent of film grain — present without drawing attention to itself.
 
 ---
 
 #### Accent Color
 
-**Flash Amber**
-- Hex: `#C8922A`
-- RGB: 200, 146, 42
-- Usage: Accent only. Used sparingly — a single highlight per composition maximum. Evokes the warmth of stadium floodlights and the amber of a cinema projector. Never used as a background field. Never used on garments as a dominant color. It appears where the moment needs emphasis.
+**Tungsten**
+- Hex: `#C8A96E`
+- RGB: 200, 169, 110
+- Usage: Accent only. Used for select design moments, limited edition labeling, and specific typographic highlights. Think: the amber of a stadium floodlight at dusk, or the muted gold of a championship trophy in low light. Never used as a dominant color. Never used on standard garments — reserved for special collections only.
 
 ---
 
-#### Palette Usage Rules
+#### Color Usage Rules
 
-- Reel Black and Frame White carry 80% of all visual weight across brand touchpoints
-- Grain Ivory and Lens Grey fill the remaining 18%
-- Flash Amber accounts for no more than 2% of any composition
-- Do not introduce colors outside this palette without approval from brand leadership
-- Digital screens: use sRGB color profile. Print: match to closest Pantone at production stage (reference sheet issued separately)
+- The ratio of Reel Black to Frame White should be deliberate — never split equally without clear compositional intention
+- Tungsten appears once per composition, at most, and only where earned
+- Never use full-saturation color. WEARFRAME does not do bright
+- All photography and graphic content must be palette-compatible — desaturated or naturally muted imagery only
+- Text contrast: all body text must meet WCAG AA minimum (4.5:1 ratio); display text minimum 3:1
 
 ---
 
 ### 5.3 Typography
 
-WEARFRAME's typographic system is editorial and deliberate. Clean lines, confident weight, no decorative noise. All typefaces are available on Google Fonts.
+WEARFRAME's typography is editorial and architectural. It occupies space with confidence. It does not decorate — it structures. All fonts below are available via Google Fonts.
 
 ---
 
-#### Headline — *Bebas Neue*
+#### Headline Font — Cormorant Garamond
 
-- Weight: Regular (the face has no bold variant; its design is inherently strong)
-- Use: Campaign headlines, hero statements, product names, section headers
-- Size hierarchy: Hero / 72–96pt | Section / 36–48pt | Sub-heading / 24–30pt
-- Letter-spacing: +50 to +100 tracking (wide setting reinforces the architectural quality of the face)
-- Line height: 1.0–1.1 (tight — this is not body text, it should stack with intention)
-- Case: Always uppercase
+**Classification:** Serif, editorial  
+**Weights in use:** Light (300), Regular (400), SemiBold (600)  
+**Usage:** Hero text, collection names, campaign headlines, product titles on labels and lookbook pages  
 
-**Character:** Bebas Neue carries the feeling of a stadium scoreboard or a film title card — it is bold without decoration, structural without coldness. It reads in under a second.
+**Size hierarchy:**
+- Display / Hero: 72–96px digital, 60pt+ print
+- Section heading: 40–56px
+- Sub-heading: 24–32px
 
----
-
-#### Body — *DM Sans*
-
-- Weight: Regular (400) for long-form, Medium (500) for labels and UI
-- Use: Product descriptions, brand copy, email body text, in-store copy
-- Size hierarchy: Primary body / 15–17pt | Secondary / 13pt | Micro / 10–11pt
-- Letter-spacing: 0 to +10 (default to optical, adjust per medium)
-- Line height: 1.55–1.65 (generous — readability is not sacrificed for aesthetics)
-- Case: Sentence case. Never all-caps in body context.
-
-**Character:** DM Sans is modern without being trendy. It sits quietly, does its job, and doesn't compete with the headline or the image. That is exactly what WEARFRAME body copy should do.
+**Line spacing:** 1.05–1.1x at display sizes; 1.2x at sub-heading scale  
+**Letter spacing:** -0.02em at large sizes for tighter editorial feel; 0em at sub-heading scale  
+**Rationale:** Cormorant Garamond carries the weight of classical proportion while remaining sharp at scale. It reads like a film title card. It does not apologize for occupying space.
 
 ---
 
-#### Accent / Label — *Cormorant Garamond Italic*
+#### Body Font — DM Sans
 
-- Weight: Italic, Light (300) or Regular (400)
-- Use: Pull quotes, product subtitles, secondary credits, in-garment label details
-- Size: Never larger than the body text in the same composition. Typically 11–14pt.
-- Letter-spacing: -10 to 0 (slightly tighter than default — it settles beautifully at small sizes)
-- Line height: 1.4
+**Classification:** Geometric sans-serif  
+**Weights in use:** Regular (400), Medium (500)  
+**Usage:** Body copy, product descriptions, email text, captions, UI labels, all functional text  
 
-**Character:** The Italic Cormorant introduces a reference to the editorial world — fashion editorials, literary reviews, film credits. It is used as an exhale after a headline. Sparingly applied, it adds dimension without clutter.
+**Size hierarchy:**
+- Body standard: 15–16px digital, 10–11pt print
+- Caption / metadata: 12px
+- Fine print / legal: 10px
+
+**Line spacing:** 1.6x for body copy; 1.4x for captions  
+**Letter spacing:** 0em at body scale; +0.04em for all-caps label applications  
+**Rationale:** DM Sans provides clean, unhurried readability. It complements Cormorant Garamond without competing. Where Cormorant Garamond is the film, DM Sans is the subtitle — functional, invisible until you need it.
 
 ---
 
-#### Typography Rules
+#### Accent / Label Font — Space Mono
 
-- Never use more than two typefaces in a single composition
-- Bebas Neue headlines never sit below a DM Sans body block in visual hierarchy — they always lead
-- Do not apply Bebas Neue to body-length copy (more than one line of reading text)
-- Do not use Cormorant Garamond in weights heavier than Regular
-- Minimum font size in print: 8pt. Digital: 11px.
+**Classification:** Monospaced  
+**Weights in use:** Regular (400), Bold (700)  
+**Usage:** Garment care labels, size indicators, edition numbers, timestamps in campaign content, select short-form metadata  
+**Size:** 10–13px digital, 8–10pt print only — never used at large scale  
+**Letter spacing:** +0.08em always  
+**Rationale:** Space Mono introduces deliberate tension — the precision of a technical readout against the warmth of Cormorant Garamond. It echoes the data-stamped edge of a film negative, or a scoreboard font from a legendary stadium. Used minimally, it carries significant personality.
 
 ---
 
 ### 5.4 Spacing & Layout Principles
 
-**Breathing room is not wasted space.** WEARFRAME compositions favor generous margins, tight content, and deliberate emptiness. A layout that looks "too empty" is almost always closer to correct than one that fills the frame.
+**White space is editorial.** WEARFRAME layouts breathe. Generous margins signal confidence — they communicate that the content does not need to compete for attention. Minimum margins: 48px on digital; 20mm on print.
 
-- **Grid:** 12-column grid for digital. 6-column for print. Margins at minimum 8% of total width.
-- **Hierarchy:** One visual priority per composition. One headline. One image. One moment.
-- **Alignment:** Left-aligned text as default. Center alignment only for single-line statements or product names. Never justified.
-- **Photography framing:** Prefer the moment before or after peak action — the approach, the breath, the stillness. Not the obvious shot. The frame around the icon.
-- **White space rule:** If you feel the need to fill a space, question why. The answer is almost always: leave it.
+**One focal point per composition.** Every page, post, or panel has one thing it is showing. Two focal points means no focal point. This applies to garment photography, social content, and web layouts equally.
+
+**Asymmetry over symmetry.** Centered layouts read as corporate or promotional. WEARFRAME compositions favor deliberate asymmetry — heavy typography anchored to one side, intentional visual tension. Centered text is acceptable for display headlines only.
+
+**Grid discipline.** Use a 12-column grid on digital and a 6-column grid on print. All content aligns to the grid. Exceptions require creative direction sign-off before production.
+
+**No visual noise.** Borders, drop shadows, gradients, decorative dividers, and texture overlays are not part of the WEARFRAME visual language. Separation is achieved through space, not decoration.
 
 ---
 
 ## 6. Voice & Tone
 
-### The Four Adjectives
+### 6.1 Brand Voice — Four Defining Qualities
 
-**1. Spare**
-WEARFRAME copy uses exactly as many words as necessary. Not fewer — that becomes cryptic. Not more — that becomes noise. Every sentence earns its place. If a sentence can be cut without losing meaning, cut it.
+**Understated**
+WEARFRAME never oversells. The writing does not tell people how to feel — it creates the conditions for feeling. Where another brand might write "this is iconic," WEARFRAME lets the moment speak. Adjectives are earned or absent.
 
-**2. Assured**
-The brand does not hedge, qualify, or ask for permission. We do not say "we think" or "perhaps" or "kind of." We know what we are. We state it directly. Assurance is not arrogance — it is clarity.
+**Precise**
+Every word is chosen. Every sentence has been edited. WEARFRAME copy does not use filler language, transitional pleasantries, or vague gestures toward meaning. It says the specific thing, or it says nothing.
 
-**3. Reverent**
-We speak about the moments we reference with genuine respect. We are not ironic about them. We do not use cinema or sport as aesthetic props — we treat them as the source material they are. The tone is that of someone who genuinely cares.
+**Confident**
+The brand does not seek approval. It does not add qualifiers to soften its positions. WEARFRAME copy states its perspective plainly and moves on. Confidence is not aggression — it is the absence of hedging.
 
-**4. Still**
-The voice does not rush. It does not use exclamation marks (rarely, and never in brand-to-consumer copy). It does not pile on adjectives. It arrives, says what it came to say, and leaves. The stillness in the writing mirrors the stillness of a freeze-frame.
-
----
-
-### Do / Don't Examples
-
-| Context | Do | Don't |
-|---|---|---|
-| Product description | "Heavyweight cotton. Built to last the moment." | "This incredible tee is PERFECT for any occasion!!" |
-| Instagram caption | "The frame that changed everything. Now on your back." | "We're so excited to drop this new design 🔥🔥🔥 Who's copping??" |
-| Campaign headline | "WEAR THE MOMENT" | "Celebrate Your Fave Iconic Moments in Style!" |
-| Email subject line | "The drop is here." | "🚨 NEW ARRIVALS YOU DON'T WANT TO MISS 🚨" |
-| Brand description | "WEARFRAME makes clothing for people who remember." | "We're a passionate team of creatives who love fashion and culture!" |
-| Error / sold out message | "Gone. Some things only happen once." | "Oops! This item is currently out of stock. Check back soon!" |
+**Cinematic**
+The writing has rhythm. It builds and releases. It sometimes holds a beat longer than expected. WEARFRAME copy can be read aloud and feel right — because it is structured the way a scene is structured: with intention, pacing, and a clear sense of when something lands.
 
 ---
 
-### Writing Rules
+### 6.2 Do / Don't Examples
 
-**Sentence length:** Short to medium. No sentence in brand copy exceeds twenty-five words. In headline copy, aim for ten or fewer.
+| Do | Don't |
+|---|---|
+| "One frame. Eleven seconds of silence. A career." | "This iconic piece celebrates one of sports history's most memorable moments!" |
+| "The hoodie exists for one reason." | "Our amazing new hoodie is here and it's everything you've been waiting for!" |
+| "Not every jersey becomes permanent. This one did." | "Show your passion for the game with our limited edition sports-inspired collection." |
+| "Wear the moment. Or don't. It will still have happened." | "Be part of something bigger — join the WEARFRAME community today!" |
+| "Frame 2,847. Unchanged since 1986." | "Throwback vibes with a modern twist — perfect for any occasion!" |
+| "Made for the person who already knows." | "Whether you're a film buff or sports fanatic, there's something for everyone!" |
+| "Limited. As all significant things are." | "Hurry — limited stock available! Don't miss out on this exclusive drop!" |
+| "Quiet on the outside. Everything on the inside." | "Express yourself with WEARFRAME's bold new statement pieces." |
 
-**Punctuation philosophy:** Periods are final. Ellipses are used deliberately and sparingly — they suggest a pause, not uncertainty. Em-dashes over commas where there is a break in thought. No exclamation marks in brand voice copy. No question marks in headlines.
+---
 
-**Capitalization:** Headlines in full uppercase (Bebas Neue). Body copy in sentence case. The brand name is always WEARFRAME — never "Wearframe" or "wearframe." The tagline is always "Wear the moment." — lowercase after the W, period at the end.
+### 6.3 Writing Rules
 
-**Numbers:** Spell out one through nine. Numerals for 10 and above, and always for sizes, prices, and measurements.
+**Sentence length:** Vary deliberately. Short sentences land hard. Longer sentences build atmosphere and establish context before the landing. Never more than two long sentences in sequence — the rhythm must shift. Maximum sentence length in body copy: 25 words.
 
-**References:** When naming a specific film or sporting moment, be precise. The year. The exact context. Not "a famous boxing match" — "Kinshasa, 1974." The specificity is the point.
+**Punctuation philosophy:** The em dash is used for pause and emphasis — not parenthetical asides. Ellipses are used rarely, only when trailing silence is genuinely intentional. Exclamation marks do not exist in WEARFRAME copy. Question marks are used only when a question is genuinely being asked, not as rhetorical enthusiasm.
+
+**Capitalization:** Title case for collection names and product names only. Headlines use sentence case unless a specific design application demands all-caps. ALL CAPS is acceptable in garment label contexts and Space Mono accent applications only — never in body copy or standard captions.
+
+**Numbers:** Use numerals for all numbers in editorial contexts (not "three T-shirts" — "3 T-shirts"). Frame references are always numerals with comma formatting: "Frame 2,847."
+
+**Words to avoid always:** amazing, iconic (unless the reference genuinely earns it), exclusive, drop (used as a noun), collab, vibe, statement piece, passion (as a standalone noun without object), community (as a marketing word), journey, elevate, curated, game-changing.
+
+**Tense:** Present tense preferred for all brand and product copy. Past tense for specific historical moment references. Future tense used sparingly, only for concrete and confirmed upcoming events.
 
 ---
 
@@ -295,121 +317,130 @@ The voice does not rush. It does not use exclamation marks (rarely, and never in
 
 ### Instagram Caption
 
-> Kinshasa, 1974. Eight rounds in, and then the rope. Some moments don't need a caption.
+> 1972. A stadium in Munich.  
+> One frame before the world changed.  
 >
-> Wear the moment. Link in bio.
+> The Archive Series. Available now.  
+> Wear the moment.
+
+*Note: No hashtag blocks in the caption. One or two tags maximum, placed in the first comment if used. The caption is complete without them.*
 
 ---
 
 ### Product Tag Copy
 
 **Front of tag:**
-> WEARFRAME
-> Wear the moment.
+> WEARFRAME  
+> Frame 1,204 — 1994
 
 **Back of tag:**
-> 100% heavyweight organic cotton.
-> Designed for the frame that lasted.
-> Wash cold. Dry flat. Keep it.
+> This piece was designed around a single moment.  
+> You will recognize it, or you will find out why it matters.  
+> Either way, it is permanent.  
+>
+> 100% organic cotton. Made to last.
 
 ---
 
 ### Email Subject Line
 
-> The Archive — Drop 02 is live.
+> The moment you have been wearing without knowing it.
 
-*(No emoji. No urgency language. The period signals finality, not trailing off.)*
+*Alternatively:*
+
+> New collection. No explanation needed.
+
+*Or for a limited-run reminder:*
+
+> This ends tonight. So did the game.
 
 ---
 
 ### Website Hero Text
 
-**Headline (Bebas Neue, uppercase):**
-> THE FRAME THAT NEVER FADED
+**Headline (Cormorant Garamond, Display, SemiBold):**
+> Wear the moment.
 
-**Sub-line (DM Sans, sentence case):**
-> Clothing built from the moments that defined cinema and sport. Worn by people who know exactly what they're carrying.
+**Sub-headline (DM Sans, Medium, 18px):**
+> WEARFRAME designs around the instants that became permanent.  
+> Cinema. Sport. The freeze-frame before everything changed.
 
-**CTA:**
-> Shop the Collection
-
-*(No "Shop Now!" — the urgency is implied by the silence around it.)*
+**CTA (DM Sans, Medium, ALL CAPS, 13px, +0.08em letter spacing):**
+> EXPLORE THE COLLECTION
 
 ---
 
 ### In-Store Signage
 
-**Primary wall panel:**
-> SOME MOMENTS BECOME PERMANENT.
-> THIS IS ONE OF THEM.
+**Large format wall panel (Cormorant Garamond, Display):**
 
-**Near fitting rooms:**
-> Try it on. See what it carries.
+> Some moments become permanent  
+> the instant they happen.
 
-**At the register:**
-> You already know what you're leaving with.
+> This is clothing for the person  
+> who understands why.
+
+**Collection identifier (Space Mono, Regular, 12pt, +0.08em):**
+> ARCHIVE SERIES — VOLUME 03
 
 ---
 
 ## 8. What We Are Not
 
-WEARFRAME is defined as much by what it refuses as by what it makes.
+WEARFRAME is not a nostalgia brand. We do not sell the feeling of a past decade — we work with specific, significant moments because they are still present, still alive in cultural memory, still worth naming. If your first instinct when you see our work is "retro," you are not yet reading it correctly.
 
-We are not loud. A brand that needs a large logo to be recognized has already lost the argument. WEARFRAME earns its recognition through what it carries, not how loudly it announces itself.
+We are not a streetwear brand performing humility. The quietness of WEARFRAME is not a strategy for appearing accessible — it is a genuine position. We do not want everyone. We want the people who understand the work. Market share is not a value we hold.
 
-We are not fast. Fast fashion moves at the speed of trend. WEARFRAME moves at the speed of legacy. We release when a piece is right — not when the calendar says to.
+We are not interested in trend cycles. We do not release a collection because something is having a cultural moment right now. We operate on a different timeline — the timeline of what lasts. If a design needs to be released this week to be relevant, it was never a WEARFRAME design.
 
-We are not merchandise. There is a category of clothing that exists purely to signal fandom. WEARFRAME is not that category. Our pieces are garments first, cultural objects second. The difference is in the material, the cut, the restraint of the design.
+We do not use our garments as billboards. The logo is not the point. The moment is the point. Garments that exist only to display the brand name are advertisements, not clothing. WEARFRAME makes clothing.
 
-We are not ironic. We do not wink at our references. We do not use the language of camp or detachment. The moments we build from meant something. We treat them that way.
+We are not a "community." We do not use that word. What we have is an audience of people with taste, patience, and cultural curiosity. They found us. They do not need to be managed or gamified into loyalty. They either recognize something real, or they move on. Both outcomes are fine.
 
-We are not for everyone. A brand that tries to reach every room ends up owning none of them. WEARFRAME is for a specific kind of person — culturally fluent, aesthetically deliberate, allergic to noise. We build for that person and no one else.
-
-We are not trend-dependent. We have no interest in whatever the current aesthetic cycle is demanding. By the time a trend is visible, it has already peaked. WEARFRAME's references predate trends and will outlast them.
-
-We do not explain ourselves. If you need a caption to understand what you're looking at, the design has failed. If you're not the person who gets it, you're not the person it's for. That is not exclusion — that is integrity.
+We do not manufacture urgency. When something is limited, it is because the run is genuinely finite and the design belongs to a specific moment — not because artificial scarcity drives conversions. WEARFRAME does not perform. It exists, with precision, and waits for the right people to find it.
 
 ---
 
 ## 9. Brand Checklist
 
-Use this before publishing any brand asset — digital, print, garment, or otherwise.
+Use before publishing any WEARFRAME asset — digital, physical, or printed. Every item must be confirmed before release.
 
 ### Visual
 
-- [ ] Only Reel Black, Frame White, Grain Ivory, Lens Grey, and Flash Amber are present
-- [ ] Flash Amber accounts for no more than 2% of the composition's visual weight
-- [ ] Only approved typefaces are used (Bebas Neue / DM Sans / Cormorant Garamond Italic)
-- [ ] No more than two typefaces appear in the same composition
-- [ ] Logo clear space is maintained on all sides
-- [ ] Logo appears in an approved colorway only
-- [ ] There is one clear visual priority — one moment, one hierarchy
-- [ ] White space has not been filled unnecessarily
-- [ ] Photography framing favors restraint over spectacle
+- [ ] All colors are from the approved WEARFRAME palette — no substitutions, no full-saturation color
+- [ ] Typography uses only Cormorant Garamond, DM Sans, or Space Mono in approved weights and sizes
+- [ ] Logo has full required clear space maintained on all four sides
+- [ ] Logo is not distorted, rotated, recolored outside approved treatments, or placed on a conflicting background
+- [ ] Composition has a single clear focal point — not two or more competing elements
+- [ ] No drop shadows, gradients, decorative borders, or texture overlays present
+- [ ] Photography is desaturated or naturally muted — no bright, fully saturated imagery
+- [ ] Layout uses the approved grid (12-column digital / 6-column print)
+- [ ] Minimum margins observed (48px digital / 20mm print)
+- [ ] Tungsten accent appears once at most and only where compositionally intentional
 
 ### Copy
 
-- [ ] No sentence in brand copy exceeds 25 words
-- [ ] No exclamation marks
-- [ ] No hedging language ("we think," "perhaps," "kind of")
-- [ ] Brand name appears as WEARFRAME (all caps, no exception)
-- [ ] Tagline appears as "Wear the moment." (sentence case, with period)
-- [ ] Cultural references are specific — year, location, exact moment — not vague
-- [ ] Copy has been read aloud and sounds like something a confident, still person would say
-- [ ] Nothing has been written to fill space
+- [ ] No exclamation marks anywhere in the copy
+- [ ] No words from the banned list: amazing, iconic without context, exclusive, vibe, community, journey, collab, drop as a noun, elevate, curated, game-changing
+- [ ] Sentence length varies — no more than two long sentences appear in sequence
+- [ ] Tone is understated, precise, confident, and cinematic throughout
+- [ ] Copy does not tell the audience how to feel — it presents; it does not instruct
+- [ ] All numbers appear as numerals
+- [ ] Capitalization follows the rules: sentence case headlines, title case for collection and product names, ALL CAPS only in label and accent type contexts
+- [ ] The specific cultural moment referenced in the design is real, traceable, and named or clearly implied
 
 ### Brand Alignment
 
-- [ ] This asset could only have come from WEARFRAME — it is not interchangeable with another brand
-- [ ] The asset treats its cultural reference with genuine respect
-- [ ] The asset does not explain itself
-- [ ] The asset does not chase a trend
-- [ ] A person who gets it will recognize it immediately. A person who doesn't will move on. Both outcomes are acceptable.
+- [ ] The design or copy could not be mistaken for another brand's output
+- [ ] The work reflects restraint — anything that can be removed without loss has been removed
+- [ ] The work trusts the audience — nothing is over-explained or hand-held
+- [ ] The piece belongs on a ten-year timeline, not a ten-day one
+- [ ] A WEARFRAME creative team member has reviewed and approved before publication
 
 ---
 
-*WEARFRAME Brand Manual — Version 1.0*
-*For internal use and approved partners only.*
-*Questions: brand@wearframe.com*
+*WEARFRAME Brand Manual — Version 1.0*  
+*Internal use only. Not for distribution outside of authorized brand partners and creative collaborators.*  
+*All visual assets, color specifications, and typographic selections are subject to revision pending logo finalization. Color and font recommendations are production-ready and may be implemented immediately.*
 
 ---
